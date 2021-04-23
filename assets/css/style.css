@@ -154,6 +154,7 @@ p {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -167,7 +168,7 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    
+    flex-wrap: wrap;
 }
 
 .social-media-marketing {
@@ -179,19 +180,31 @@ p {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .search-engine-optimization img {
     max-height: 200px;
-
+    flex: 1;
+}
+.search-engine-optimization div{
+    flex: 3;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    flex: 1;
+}
+.online-reputation-management div{
+    flex: 3;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    flex: 1;
+}
+.social-media-marketing div {
+    flex: 3;
 }
 
 .search-engine-optimization h2 {
