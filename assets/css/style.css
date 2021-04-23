@@ -232,3 +232,12 @@ p {
 .footer h3 {
     font-size: 20px;
 }
+  /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width:980px) {
+.header li{
+    font-size: 20px;
+}
+.header h1{
+font-size: 28px;
+}
+  }
