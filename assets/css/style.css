@@ -18,6 +18,8 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -25,8 +27,8 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 48px;
+    
 }
 
 .header h1 .seo {
